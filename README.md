@@ -69,8 +69,8 @@ Before you begin, make sure you have the following installed:
 
 - **Python** 3.10+
 - **Node.js** 20.19+ or 22.12+ *(important: Vite 5 requires this)*
-- **PostgreSQL** running locally
-- A **Groq API Key** (free at [console.groq.com])
+- **PostgreSQL** running locally | Used neon on deployement.
+- A **Groq API Key** 
 
 ---
 
@@ -116,6 +116,8 @@ DATABASE_USERNAME=postgres
 DATABASE_PASSWORD=your_postgres_password
 DATABASE_NAME=Schmooze_Media
 DATABASE_PORT=5432
+or 
+DATABASE_URL = postgresql://postgres:password:5432/Schmooze_Media
 GROQ_API_KEY=your_groq_api_key_here
 ```
 
@@ -226,12 +228,12 @@ Return ONLY JSON.
 
 ---
 
-## 🌐 Deployment (Optional)
+## 🌐 Deployment 
 
 | Service    | Platform         |
 |------------|------------------|
-| Frontend   | Vercel / Netlify |
-| Backend    | Render / Railway |
+| Frontend   | Vercel           | 
+| Backend    | Render           |
 | Database   | Neon (PostgreSQL) |
 
 For deployment, update the `VITE_API_URL` in your frontend environment and update `allow_origins` in `main.py` CORS settings.
@@ -249,4 +251,4 @@ For deployment, update the `VITE_API_URL` in your frontend environment and updat
 
 ## 📄 License
 
-MIT — Free to use and modify.
+Ganpat Kumar
