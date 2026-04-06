@@ -70,7 +70,7 @@ Before you begin, make sure you have the following installed:
 - **Python** 3.10+
 - **Node.js** 20.19+ or 22.12+ *(important: Vite 5 requires this)*
 - **PostgreSQL** running locally
-- A **Groq API Key** (free at [console.groq.com](https://console.groq.com))
+- A **Groq API Key** (free at [console.groq.com])
 
 ---
 
@@ -79,7 +79,7 @@ Before you begin, make sure you have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone with url
 cd "Schmooze Media"
 ```
 
