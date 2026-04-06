@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { Rocket, Github, Linkedin, Mail } from 'lucide-react';
+import { Rocket, Code2, Globe, Mail } from 'lucide-react';
 import Dashboard from './pages/Dashboard';
 import SubmitIdea from './pages/SubmitIdea';
 import IdeaDetails from './pages/IdeaDetails';
@@ -59,7 +59,7 @@ function App() {
                 onMouseEnter={e => e.currentTarget.style.color = '#0A66C2'}
                 onMouseLeave={e => e.currentTarget.style.color = 'var(--text-secondary)'}
               >
-                <Linkedin size={18} /> LinkedIn
+                <Globe size={18} /> LinkedIn
               </a>
               <a
                 href="https://github.com/GanpatKumargct"
@@ -70,7 +70,7 @@ function App() {
                 onMouseEnter={e => e.currentTarget.style.color = 'var(--text-primary)'}
                 onMouseLeave={e => e.currentTarget.style.color = 'var(--text-secondary)'}
               >
-                <Github size={18} /> GitHub
+                <Code2 size={18} /> GitHub
               </a>
               <a
                 href="mailto:ganpatkumardev@gmail.com"
